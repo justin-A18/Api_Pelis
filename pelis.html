@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEMOVE | pelis</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/entertainment-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./css/styles2.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegation">
+        <div class="nav__icon">
+          <h2 class="icon-text">DEMOVE</h2>
+        </div>
+
+        <div class="nav__tabs">
+          <ul class="nav__list">
+            <li class="nav__items">
+              <a class="nav__links" href="./index.html">Home</a>
+            </li>
+            <li class="nav__items">
+              <a class="nav__links" href="./pelis.html">Movies</a>
+            </li>
+            <li class="nav__items">
+              <a class="nav__links" href="./404.html">TV series</a>
+            </li>
+            <li class="nav__items">
+              <a class="nav__links" href="./404.html">Generos</a>
+            </li>
+          </ul>
+
+          <form class="nav__form">
+            <div class="form-search">
+              <input
+                class="search"
+                type="text"
+                placeholder="Search..."
+                id="input"
+              />
+              <button class="search-submit" id="btn-search">
+                <i class="bx bx-search bx-md"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <button class="nav__burger">
+          <i class="bx bx-menu bx-lg" id="icon-menu"></i>
+        </button>
+      </nav>
+    </header>
+    <main class="movies">
+      <section class="movies__content">
+        <div class="movies__cards"></div>
+        <footer class="movies__pag">
+          <button class="btnprev btn">
+            <i class="bx bx-chevron-left bx-lg"></i>
+          </button>
+          <button class="btnnext btn">
+            <i class="bx bx-chevron-right bx-lg"></i>
+          </button>
+        </footer>
+      </section>
+    </main>
+    <script src="js/pelis.js"></script>
+  </body>
+</html>
